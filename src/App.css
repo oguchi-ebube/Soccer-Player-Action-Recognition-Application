@@ -1,0 +1,103 @@
+@import "~antd/dist/antd.css";
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#header .header-title {
+  color: #fff;
+  text-align: center;
+}
+
+#main-page {
+  height: 100%;
+}
+
+#main-page .video-section {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: center;
+  height: 400px;
+}
+
+#main-page .img-feed {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#main-page .analysis-section {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+  height: 360px;
+}
+
+#main-page .analysis-section #metric-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#main-page .analysis-section #metric-table td,
+#main-page .analysis-section #metric-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#main-page .analysis-section #metric-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#main-page .analysis-section #metric-table tr:hover {
+  background-color: #ddd;
+}
+
+#main-page .analysis-section #metric-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}

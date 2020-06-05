@@ -1,0 +1,214 @@
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+#main-menu {
+  position: absolute;
+  float: left;
+  line-height: 45px !important;
+}
+
+#main-menu .ant-menu-item a {
+  color: #4b4a87;
+  font-family: CeraGR-Bold;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#main-header .profile-button {
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  width: 150px;
+  text-align: left;
+  color: #4b4a87;
+  font-family: CeraGR-Medium;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#main-header .profile-button-user {
+  color: #5945e6;
+  margin-right: 8px;
+}
+.ant-menu-horizontal > .ant-menu-item-selected {
+  color: #4b4a87;
+  border-bottom: 3px solid #6564e8;
+}
+
+.logo {
+  height: 40px;
+}
+.side-bar-content .logo {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.app-title {
+  color: #000000;
+  display: inline-block;
+}
+.side-bar-header {
+  background: #001529;
+  padding-left: 8px;
+  padding-right: 0;
+  background: #ffffff;
+}
+.side-bar-content {
+  height: 100%;
+  background-image: linear-gradient(90deg, #6564e8 0%, #9c7af2 100%);
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#side-bar .ant-menu-item:active {
+  background-color: transparent;
+}
+#side-bar .side-bar-menu {
+  background-color: transparent;
+  border-right-width: 0px;
+}
+#side-bar .ant-menu-item > a {
+  font-family: CeraGR-Medium;
+  font-size: 16px;
+  line-height: 140.5%;
+  color: #ffffff;
+}
+#side-bar .ant-menu-item-selected > a {
+  color: #6564e8;
+}
+#side-bar .ant-menu-item {
+  height: 50px;
+}
+#side-bar .ant-menu-item-selected {
+  background-color: #ffffff;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+#side-bar .ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 0px;
+}
+
+#side-bar .ant-menu-inline .ant-menu-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+#side-bar .account-block {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  width: 80%;
+  height: 110px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+#side-bar .account-block .title {
+  font-family: CeraGR-Bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+#side-bar .account-block .title-divider {
+  margin-top: 10px;
+  width: 80%;
+  min-width: 80%;
+}
+#side-bar .account-block .profile-button-user {
+  margin-right: 10px;
+}
+#side-bar .account-block .username {
+  font-family: CeraGR-Medium;
+  font-size: 16px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+#side-bar .logoutBtn {
+  font-family: CeraGR-Bold;
+  font-size: 16px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 0px;
+  margin-top: 20px;
+  box-shadow: none;
+}
+#side-bar .bottom-side-bar-content {
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+}
+
+#main-header {
+  padding-left: 0;
+  padding-right: 0;
+  color: #fff;
+  background: #ffffff;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.05);
+}
+#main-header .trigger {
+  float: left;
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#main-header .trigger:hover {
+  color: #1890ff;
+}
+
+#main-header .action-menu {
+  position: relative;
+}
+
+#main-header .right-menu {
+  float: right;
+  padding-right: 30px;
+}
+#main-header .right-menu .user-text {
+  color: #fff;
+  display: inline-block;
+}
+#main-header .right-menu .logoutBtn {
+  background-color: transparent;
+  margin-right: 20px;
+  border-width: 0px;
+  color: #4b4a87;
+  font-family: CeraGR-Bold;
+}
+#main-header .right-menu .logoutBtn .logoutBtn-icon {
+  margin-left: 8px;
+}
+
+#main-header .ant-menu-horizontal {
+  line-height: 50px;
+  border-bottom: 0px;
+}
+
+#main-content {
+  min-height: 100%;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  /* .side-bar-content {
+    width: 0px !important;
+    min-width: 0px !important;
+    max-width: 0px !important;
+  } */
+}
